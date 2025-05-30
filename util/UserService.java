@@ -39,6 +39,8 @@ public class UserService {
         System.out.println("이메일 : " + email);
         System.out.println("패스워드 : " + password);
         System.out.println("회원 가입 완료되었습니다.");
+        String currentTime = DateUtil.getCurrentDateTime();
+        System.out.println("현재시간:" + currentTime);
 
     }
 

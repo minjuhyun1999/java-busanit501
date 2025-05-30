@@ -30,6 +30,7 @@ public class MainClass {
             if (choice.equals("1")) {
                 // 회원 가입 기능 호출
                 UserService.registerUser(scanner);
+
             } else if (choice.equals("2")) {
                 // 로그인 기능 호출
                 UserService.loginUser(scanner);
