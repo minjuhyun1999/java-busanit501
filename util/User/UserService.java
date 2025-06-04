@@ -1,6 +1,8 @@
-package util;
+package util.User;
 
 import java.util.Scanner;
+
+import util.date.DateUtil;
 
 public class UserService {
 
