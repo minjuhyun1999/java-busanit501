@@ -2,46 +2,39 @@ package ch3;
 
 import java.util.Scanner;
 
+import ch2.Exs;
+
 public class Exs_ch3_Main {
     public static void main(String[] args) {
         // 공용으로 사용할 스캐너
         Scanner scanner = new Scanner(System.in);
 
-        // Ex3-6-4, 배열을 이용한 회원 관리 프로그램 예시
-        int menu;
-        do {
-            System.out.println("회원 관리 프로그램 예시");
-            System.out.println("=================================================================");
-            System.out.println("1. 회원 추가 , 2. 회원 조회, 3. 회원 수정, 4. 회원 삭제, 5.더미 데이터 추가 5개 0. 종료");
-            System.out.println("=================================================================");
-            System.out.print("메뉴를 선택하세요(0 ~ 4): ");
-            menu = scanner.nextInt();
-            scanner.nextLine(); // 개행 문자 제거
-            switch (menu) {
-                case 1:
-                    Exs_ch3_2_user_array_doc.addUser(scanner); // 회원 추가
-                    break;
-                case 2:
-                    Exs_ch3_2_user_array_doc.viewUsers(); // 회원 조회
-                    break;
-                case 3:
-                    Exs_ch3_2_user_array_doc.updateUser(scanner); // 회원 수정
-                    break;
-                case 4:
-                    System.out.println("회원 삭제 기능은 아직 구현되지 않았습니다.");
-                    break;
-                case 5:
-                    Exs_ch3_2_user_array_doc.addDummyUsers(); // 더미 데이터 추가
-                    System.out.println("더미 데이터 5개가 추가되었습니다.");
-                    break;
-                case 0:
-                    System.out.println("프로그램을 종료합니다.");
-                    break;
-                default:
-                    System.out.println("잘못된 메뉴 선택입니다. 다시 시도하세요.");
-            }
+        // -- 퀴즈1,
+        // -- 사용자로부터 정수 5개를 입력받아 배열에 저장하고 역순 출력
 
-        } while (menu != 0); // 메뉴가 0이 아닐 때까지 반복
+        // -- 퀴즈2,
+        // -- 3x3 배열을 만들어 모든 요소에 1~9 채우고 출력
+
+        // -- 퀴즈3,
+        // -- 문자열 배열을 메서드로 받아 가장 긴 문자열을 반환
+
+        // ex3-8-2, 배열을 리턴하는 메서드
+        int[] returnArray = Exs_ch3.ex3_8_return(); // 배열 생성, 조회, 반복문 출력 예시
+        System.out.println("ex3-8-2, 리턴된 배열의 값:");
+        for (int number : returnArray) {
+            System.out.print(number + " "); // 1 2 3 4 5 출력
+        }
+
+        // Ex3-8, 배열 생성, 조회, 반복문 출력 예시
+        // Exs_ch3.ex3_8();
+        System.out.println("============================");
+
+        // ex3_7 , 확인 하는 예시 메소드
+        // Exs_ch3.ex3_7(scanner);
+        System.out.println("============================");
+
+        // 회원 관리 프로그램 예시, ui 그리기,
+        // Exs_ch3.ex_user_ui(scanner);
         System.out.println("============================");
 
         // Ex3-6-3, 이중 배열 예시
