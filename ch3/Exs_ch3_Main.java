@@ -9,15 +9,6 @@ public class Exs_ch3_Main {
         // 공용으로 사용할 스캐너
         Scanner scanner = new Scanner(System.in);
 
-        // -- 퀴즈1,
-        // -- 사용자로부터 정수 5개를 입력받아 배열에 저장하고 역순 출력
-
-        // -- 퀴즈2,
-        // -- 3x3 배열을 만들어 모든 요소에 1~9 채우고 출력
-
-        // -- 퀴즈3,
-        // -- 문자열 배열을 메서드로 받아 가장 긴 문자열을 반환
-
         // ex3-8-2, 배열을 리턴하는 메서드
         int[] returnArray = Exs_ch3.ex3_8_return(); // 배열 생성, 조회, 반복문 출력 예시
         System.out.println("ex3-8-2, 리턴된 배열의 값:");

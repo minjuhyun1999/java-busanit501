@@ -3,9 +3,9 @@ package user_mini_project;
 import java.util.Scanner;
 
 import ch2.OperConditionTest;
-import util.User.UserService;
+import util.user.UserService;
 
-public class MainClass {
+public class MainClass_if_case {
     public static void main(String[] args) {
         // 공용으로 사용할 스캐너 생성
         Scanner scanner = new Scanner(System.in);
@@ -26,11 +26,10 @@ public class MainClass {
             // 문자열을 비교 할 때는 , 문자열에 탑재된 기능 중에서, equals() 메서드를 이용함.
             // 기본 문법
             // 문자열.equals("비교할 문자열");
-            // 예시 ) choice.equals("1") // choice 변수에 저장된 문자열이 "1" 문자열 과 같은지 비교
+            // 예시 ) choice.equals("1") // choice 변수에 저장된 문자열이 "1" 문자열 과 같은지 비교\
             if (choice.equals("1")) {
                 // 회원 가입 기능 호출
                 UserService.registerUser(scanner);
-
             } else if (choice.equals("2")) {
                 // 로그인 기능 호출
                 UserService.loginUser(scanner);
