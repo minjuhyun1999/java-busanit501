@@ -2,6 +2,11 @@ package ch4;
 
 public class MainClassCh4 {
     // 실행 하는 클래스
+
+    // 퀴즈
+    // 본인 만들 Phone 클래스를, 담을 배열을만들어서,
+    // 1)담기 2)출력하기 3)각 멤버의 주소값 확인해보기.
+
     public static void main(String[] args) {
         // 설계한 클래스를 이용해서
         // 객체 생성 ,
