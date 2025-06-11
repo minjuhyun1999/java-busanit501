@@ -106,6 +106,9 @@ public class Collection_Ex1 {
         //
         // entrySet() : 맵의 모든 키-값 쌍을 Set 형태로 반환, map.entrySet();
         // for (Map.Entry<String,String> entry : map.entrySet()) {
+        // System.out.println(" 키의 값 : " + entry.getKey() + ", value의 값: " +
+        // entry.getValue());
+        // }
 
         System.out.println("======================================================");
     }
