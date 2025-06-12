@@ -15,6 +15,7 @@ public class InputOutputStreamEx1 {
     public static void main(String[] args) {
         // 키보드에서 한 글자를 입력받아 정수로 출력해보기.
         try {
+
             int data = System.in.read();
             System.out.println(data);
         } catch (Exception e) {
