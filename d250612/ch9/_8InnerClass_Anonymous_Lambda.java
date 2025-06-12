@@ -12,12 +12,12 @@ import javax.swing.JFrame;
 // 사용처
 // 버튼, 이벤트 소스가 여러 곳에서 동일한 리스너를 공유하거나, 
 // 또는 복잡한 로직을 분리할 때 사용. 
-public class InnerClass_Anonymous_Lambda {
+public class _8InnerClass_Anonymous_Lambda {
     JFrame frame = new JFrame("내부클래스 예시");
     JButton button = new JButton("닫기");
 
     // 생성자,
-    public InnerClass_Anonymous_Lambda() {
+    public _8InnerClass_Anonymous_Lambda() {
         // 버튼에 , 이벤트 리스너 붙이기
         button.addActionListener(new SampleListener());
         // 화면에 버튼 붙이기 작업,
@@ -47,6 +47,6 @@ public class InnerClass_Anonymous_Lambda {
         // 2) 메인 메서드 안에, 해당 클래스의 기본 생성자를 호출
         // 3) 호출하면, 정의한 생성자로 갑니다.
         // 4)
-        new InnerClass_Anonymous_Lambda();
+        new _8InnerClass_Anonymous_Lambda();
     }
 }

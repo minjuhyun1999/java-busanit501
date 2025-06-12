@@ -3,7 +3,7 @@ package d250612.ch9;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class SwingUI_Test_Ex1_2 {
+public class _2SwingUI_Test_Ex1_2 {
     public static void main(String[] args) {
         // Jframe 틀 안에 -> 버튼 도 추가해보기.
         JFrame frame = new JFrame("버튼 테스트, 창제목");

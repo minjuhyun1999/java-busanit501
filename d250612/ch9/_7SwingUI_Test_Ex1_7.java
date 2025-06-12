@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class SwingUI_Test_Ex1_7 {
+public class _7SwingUI_Test_Ex1_7 {
     public static void main(String[] args) {
         // JTextArea 여러 줄 입력 받을 수 있는 창 이용해서,
         // 저장 버튼 클릭시, 콘솔에 출력해보기.

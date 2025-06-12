@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class SwingUI_Test_Ex1_4 {
+public class _4SwingUI_Test_Ex1_4 {
     public static void main(String[] args) {
         // 프레임에 버튼, 라벨도 동시에 넣어보기.
         JFrame frame = new JFrame("버튼, 라벨 붙이기 예시");

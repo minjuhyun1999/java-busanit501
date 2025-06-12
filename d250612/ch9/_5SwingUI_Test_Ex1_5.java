@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 // 수동으로 패키지 경로 잡기. 
 import java.awt.event.*;
 
-public class SwingUI_Test_Ex1_5 {
+public class _5SwingUI_Test_Ex1_5 {
     public static void main(String[] args) {
         // 프레임 안에 닫기 버튼 추가해서,
         // 이벤트 처리를 , 클릭시(이벤트 핸들러) , 닫기 기능 구현 해보기.

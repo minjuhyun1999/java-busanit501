@@ -5,7 +5,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class SwingUI_Test_Ex1_6 {
+public class _6SwingUI_Test_Ex1_6 {
     public static void main(String[] args) {
         // 이름 입력이라는 라벨, 텍스트 필트(JTextField)
         JFrame frame = new JFrame("이름 입력 필드 예시");

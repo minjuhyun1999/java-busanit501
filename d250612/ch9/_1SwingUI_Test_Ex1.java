@@ -20,7 +20,7 @@ import javax.swing.JFrame;
 
 // JLabel : 텍스트나 이미지를 표시하는 컴포넌트 
 
-public class SwingUI_Test_Ex1 {
+public class _1SwingUI_Test_Ex1 {
     public static void main(String[] args) {
         // 기본 윈도우 창 생성
         JFrame frame = new JFrame("Hello GUI 창 제목");

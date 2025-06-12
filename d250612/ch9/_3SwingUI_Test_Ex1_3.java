@@ -3,7 +3,7 @@ package d250612.ch9;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class SwingUI_Test_Ex1_3 {
+public class _3SwingUI_Test_Ex1_3 {
     public static void main(String[] args) {
         // 프레임에 라벨 붙이기
         JFrame frame = new JFrame("라벨 붙이기 예시");
