@@ -23,9 +23,6 @@ import javax.swing.table.DefaultTableModel;
 import d250613.member_project.model.Member;
 import d250613.member_project.util.DateUtil;
 
-// 원래 목적, 화면 제공, + 기능 : 결과, 코드가 길어짐.
-// 기능 테스트,
-// 기능 분리,
 public class _4SignupFrame extends JFrame {
     // =============================================================
     // 추가1
